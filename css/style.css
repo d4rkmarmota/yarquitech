@@ -390,14 +390,14 @@ h1, h2, h3, h4, h5, h6, figure {
   clear: both; }
   @media screen and (max-width: 768px) {
     #colorlib-intro,
-    #colorlib-about,
-    #colorlib-services,
+    #colorlib-about,    
     #colorlib-contact,
     #colorlib-testimony,
     #colorlib-blog,
     #colorlib-project,
     #colorlib-counter,
     #colorlib-subscribe,
+    #colorlib-services,
     #colorlib-footer {
       padding: 2em 0; } }
 
