@@ -1012,11 +1012,11 @@ input[type="text"] {
   .colorlib-heading .sm {
     font-size: 16px;
     letter-spacing: 20px;
-    color: #cccccc;
+    color: #32333d;
     text-transform: uppercase;
     display: block;
     margin-bottom: 30px;
-    font-weight: 300; }
+    font-weight: 600; }
   .colorlib-heading h2 {
     font-size: 50px;
     text-transform: uppercase;
