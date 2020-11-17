@@ -363,10 +363,35 @@
 			</div>
 		</footer>
 	</div>
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+		<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+			xfbml            : true,
+			version          : 'v9.0'
+			});
+		};
+
+		(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- Your Chat Plugin code -->
+		<div class="fb-customerchat"
+			attribution=setup_tool
+			page_id="1525808654353341"
+		theme_color="#ffc300">
+	</div>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
+	
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -388,8 +413,7 @@
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
-	<script src="js/main.js"></script>
-	<script src="//code.tidio.co/tzhekmwozbyut3bujxiegpvuk3ioebz1.js"></script>
+	<script src="js/main.js"></script>	
 	</body>
 </html>
 
