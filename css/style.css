@@ -583,6 +583,19 @@ h1, h2, h3, h4, h5, h6, figure {
     background: #fafafa;
     content: ''; }
 
+.project-wrap-service {
+  position: relative;
+  display: block; }
+  .project-wrap-service:before {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: 0;
+    max-width: 100%;
+    height: auto;
+    background: #fafafa;
+    content: ''; }
+
 .project {
   background-size: cover;
   background-position: center center;
